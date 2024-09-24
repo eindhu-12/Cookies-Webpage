@@ -1,0 +1,245 @@
+header{
+    width: 100%;
+    background-color: white;
+    box-shadow: 2px 2px 4px rgb(238, 238, 231) ;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+    background-color: rgba(248, 242, 242, 0.703);
+}
+
+header p{
+    font-size: 30px;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 10px ;
+    margin-left: 50px;
+}
+header a{
+    color: black;
+}
+.divhh{
+    margin-right: 50px;
+}
+.div1{
+    margin-top: 100px;
+    display: flex;
+    justify-content:center;
+    gap: 70px;
+    flex-wrap: wrap;
+    align-items: center;
+    row-gap: 80px;
+}
+.divin1{
+    position: relative;
+    width: 250px;
+    /* border: 1px solid black; */
+    /* height: 300px; */
+}
+.div1 .divin1 img{
+    position: relative;
+    bottom: 0;
+    width: 230px;
+    transition: all;
+    transition-duration: 0.5s;
+}
+.div1 .divin1:hover img{
+    content: url(./Img_1.png);
+    bottom: 30px;
+}
+.p1{
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 8px 0px;
+}
+.divin1:hover .p1 {
+    opacity: 0.5;
+}
+.divin2:hover .p1 {
+    opacity: 0.5;
+}
+.divin3:hover .p1 {
+    opacity: 0.5;
+}
+.divin4:hover .p1 {
+    opacity: 0.5;
+}
+.divin5:hover .p1 {
+    opacity: 0.5;
+}
+.divin6:hover .p1 {
+    opacity: 0.5;
+}
+.divin7:hover .p1 {
+    opacity: 0.5;
+}
+.divin8:hover .p1 {
+    opacity: 0.5;
+}
+.div1 .divcon{
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    margin-top: 20px;
+}
+.p2{
+    margin: 0px;
+    padding: 10px;
+}
+.a1{
+    text-decoration: none;
+    background-color: rgb(241, 240, 240);
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 18px;
+    color: rgb(8, 8, 8);
+}
+.a1:hover{
+    background-color: black;
+    color: white;
+}
+.divin2{
+    position: relative;
+    width: 250px;
+}
+.div1 .divin2 img{
+    position: relative;
+    bottom: 0;
+    width: 230px;
+    transition: all;
+    transition-duration: 0.5s;
+}
+.div1 .divin2:hover img{
+    content: url(./Img-Il-Biscotto-Sbrisolotto_\(600x600\)\ -\ Copy.png);
+    bottom: 30px;
+}
+.divin3{
+    position: relative;
+    width: 250px;
+}
+.div1 .divin3 img{
+    position: relative;
+    bottom: 0;
+    width: 230px;
+    transition: all;
+    transition-duration: 0.5s;
+}
+.div1 .divin3:hover img{
+    content: url(./Img_Il-Biscotto-Frollino_\(600x600\).png);
+    bottom: 30px;
+}
+
+.divin4{
+    position: relative;
+    width: 250px;
+}
+.div1 .divin4 img{
+    position: relative;
+    bottom: 0;
+    width: 230px;
+    transition: all;
+    transition-duration: 0.5s;
+}
+.div1 .divin4:hover img{
+    content: url(./Img_Il-Biscotto-Muscovado-e-Cannella_\(600x600\).png);
+    bottom: 30px;
+}
+
+.divin5{
+    position: relative;
+    width: 250px;
+}
+.div1 .divin5 img{
+    position: relative;
+    bottom: 0;
+    width: 230px;
+    transition: all;
+    transition-duration: 0.5s;
+}
+.div1 .divin5:hover img{
+    content: url(./Img_Il-Biscotto-Arancia-e-Nocciola_\(600x600\).png);
+    bottom: 30px;
+}
+
+.divin6{
+    position: relative;
+    width: 250px;
+}
+.div1 .divin6 img{
+    position: relative;
+    bottom: 0;
+    width: 230px;
+    transition: all;
+    transition-duration: 0.5s;
+}
+.div1 .divin6:hover img{
+    content: url(./Img_Il-Biscotto-Gocciolato_\(600x600\).png);
+    bottom: 30px;
+}
+
+.divin7{
+    position: relative;
+    width: 250px;
+}
+.div1 .divin7 img{
+    position: relative;
+    bottom: 0;
+    width: 230px;
+    transition: all;
+    transition-duration: 0.5s;
+}
+.div1 .divin7:hover img{
+    content: url(./Img_Il-Biscotto-al-Cioccolato_\(600x600\).png);
+    bottom: 30px;
+}
+.divin8{
+    position: relative;
+    width: 250px;
+}
+.div1 .divin8 img{
+    position: relative;
+    bottom: 0;
+    width: 230px;
+    transition: all;
+    transition-duration: 0.5s;
+}
+.div1 .divin8:hover img{
+    content: url(./Img_Il-Biscotto-al-Limone_\(600x600\).png);
+    bottom: 30px;
+}
+
+.bor1{
+    margin: auto;
+    position: relative;
+    width: 80%;
+    height: 1.5px;
+    top: 300px;
+    background-color: black;
+
+}
+.bor2{
+    margin: auto;
+    position: relative;
+    width: 80%;
+    height: 1.5px;
+    top: 700px;
+    background-color: black;
+
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    margin-left: 20px;
+}
+footer span{
+    font-size: 20px;
+    padding: 5px;
+}
+
+
+
+
+
+
